@@ -1,0 +1,1 @@
+sbt -Dhttp.port=9007 -Dhttps.port=9008 -Dhttps.keyStore="conf/keystore/server.jks" -Dhttps.keyStorePassword="password" run;
