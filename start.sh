@@ -1,1 +1,1 @@
-sbt -Dhttp.port=9007 -Dhttps.port=9008 -Dhttps.keyStore="conf/keystore/server.jks" -Dhttps.keyStorePassword="password" run;
+sbt -Dhttp.port=disabled -Dhttps.port=$PORT -Dhttps.keyStore="conf/keystore/server.p12" -Dhttps.keyStorePassword="$SSL_PASSWORD" run;
