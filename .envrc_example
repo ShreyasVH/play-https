@@ -12,3 +12,4 @@ export REPO_VERSION=$(grep "version := " build.sbt | awk -F\" '{print $2}')
 export REPO_NAME=$(grep "name := " build.sbt | awk -F\" '{print $2}')
 
 export SSL_PASSWORD=
+
